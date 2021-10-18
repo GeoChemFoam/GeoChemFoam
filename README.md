@@ -21,4 +21,4 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 - Phase transition
 - Wettability alteration
 
-The GeoChemFoam source code is hosted on [bitbucket](https://bitbucket.org/HWUCarbonates/workspace/projects/GCF). A precompiled docker of the latest version is also available on the [docker hub] (https://hub.docker.com/r/jcmaes/geochemfoam).
+The GeoChemFoam source code is hosted on [bitbucket](https://bitbucket.org/HWUCarbonates/workspace/projects/GCF). A precompiled docker of the latest version is also available on the [docker hub](https://hub.docker.com/r/jcmaes/geochemfoam).
