@@ -6,7 +6,7 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 
 #### __Current capabilities:__
 - Multiphase Reactive Transport (e.g. [scCO2 dissolving in brine](https://arxiv.org/pdf/2103.03579.pdf))
-- Two-phase flow at low capillary number (e.g. [drainage & imbibition of oil in brine] (https://arxiv.org/abs/2105.10576))
+- Two-phase flow at low capillary number (e.g. [drainage & imbibition of oil in brine](https://arxiv.org/abs/2105.10576))
 - Conjugate Heat Transfer (e.g. [cold water injection into hot porous media](https://arxiv.org/abs/2110.03311))
 - Reactive Dissolution (e.g. [acid-well stimulation](https://www.earthdoc.org/content/papers/10.3997/2214-4609.202035250))
 - Contaminant transport (e.g. [plume migration](https://arxiv.org/abs/2103.03597))
