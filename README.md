@@ -9,6 +9,7 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 - Conjugate Heat Transfer (e.g. cold water injection into hot porous media)
 - Reactive Dissolution (e.g. acid-well stimulation)
 - Contaminant transport (e.g. plume migration)
+- Darcy-Stokes-Brinkman (e.g. permeability upscaling)
 
 #### __Currently in development:__
 - Charge Balance
@@ -20,4 +21,4 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 - Phase transition
 - Wettability alteration
 
-
+The GeoChemFoam source code is hosted on [bitbucket](https://bitbucket.org/HWUCarbonates/workspace/projects/GCF). A precompiled docker of the latest version is also available on the [docker hub] (https://hub.docker.com/r/jcmaes/geochemfoam).
