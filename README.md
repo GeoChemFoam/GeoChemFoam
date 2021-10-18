@@ -21,5 +21,5 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 - Bubble nucleation
 - Phase transition
 - Wettability alteration
-
+- Machine learning acceleration
 
