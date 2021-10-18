@@ -17,9 +17,11 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 - On-demand machine learning for reaction with [Reaktoro](https://reaktoro.org)
 
 #### __We are looking to collaborate on:__
-- Precipitation
+- Particle nucleation and precipitation
 - Bubble nucleation
 - Phase transition
 - Wettability alteration
 - Machine learning acceleration
+- Biological clogging
+
 
