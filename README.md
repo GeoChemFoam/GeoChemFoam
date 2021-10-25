@@ -16,8 +16,6 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 - Charge Balance
 - On-demand machine learning for reaction with [Reaktoro](https://reaktoro.org)
 
-### __Relevant papers:__
-
 #### __We are looking to collaborate on:__
 - Particle nucleation and precipitation
 - Bubble nucleation
