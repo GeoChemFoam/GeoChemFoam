@@ -26,7 +26,7 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 
 - Contaminant transport (e.g. [plume migration](https://arxiv.org/abs/2103.03597))
 
-<img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/ns_het.gif" width="200">
+<img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/ns_het.gif" width="300">
 
 - Darcy-Stokes-Brinkman (e.g. [permeability upscaling](https://www.nature.com/articles/s41598-021-82029-2))
 
