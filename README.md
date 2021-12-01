@@ -6,6 +6,7 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 
 #### __Current capabilities:__
 - Multiphase Reactive Transport (e.g. [scCO2 dissolving in brine](https://arxiv.org/pdf/2103.03579.pdf))
+
 - Improved Multiphase solver (e.g. [benchmarking viscous fingering in a micromodel](https://github.com/GeoChemFoam/GeoChemFoam/blob/main/GeoChemFoam_Papers/Zhaoetal2019_PoreScaleModels_PNAS.pdf))
 
 <img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/multiphaseFlow.gif" width="200">
@@ -15,9 +16,17 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 <img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/multiphaseFlowLowCa.gif" width="200"> 
 
 - Conjugate Heat Transfer (e.g. [cold water injection into hot porous media](https://arxiv.org/abs/2110.03311))
+
+
 - Reactive Dissolution (e.g. [acid-well stimulation](https://www.earthdoc.org/content/papers/10.3997/2214-4609.202035250))
+
+<img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/HM120_60_120Pe100_K10AnimatedSlices.gif" width="200"> <img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/HM120_60_120Pe1_K0.1AnimatedSlices.gif" width="200"> 
+
 - Contaminant transport (e.g. [plume migration](https://arxiv.org/abs/2103.03597))
+
 - Darcy-Stokes-Brinkman (e.g. [permeability upscaling](https://www.nature.com/articles/s41598-021-82029-2))
+
+<img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/EstailladesStreamlineNewPNGGIF.gif" width="400"> 
 
 #### __Currently in development:__
 - Charge Balance
