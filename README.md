@@ -13,7 +13,7 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 
 <img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/multiphaseFlow.gif" width="200">
 
-- Two-phase flow at low capillary number (e.g. [drainage & imbibition of oil in brine](https://arxiv.org/abs/2105.10576))
+- Two-phase flow at low capillary number (Ca=10<sup>-7</sup>) (e.g. [drainage & imbibition of oil in brine](https://arxiv.org/abs/2105.10576))
 
 <img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/multiphaseFlowLowCa.gif" width="200"> 
 
