@@ -19,6 +19,7 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 
 - Conjugate Heat Transfer (e.g. [cold water injection into hot porous media](https://arxiv.org/abs/2110.03311))
 
+<img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/spherePacking.gif" width="250">
 
 - Reactive Dissolution (e.g. [acid-well stimulation](https://www.earthdoc.org/content/papers/10.3997/2214-4609.202035250))
 
