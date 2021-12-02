@@ -7,7 +7,7 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 #### __Current capabilities:__
 - Multiphase Reactive Transport (e.g. [scCO2 dissolving in brine](https://arxiv.org/pdf/2103.03579.pdf))
 
-<img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/multiphaseReactive.gif" width="200">
+<img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/multiphaseReactive.gif" width="300"> <img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/CavityDissolution.gif" width="400">
 
 - Improved Multiphase solver (e.g. [benchmarking viscous fingering in a micromodel](https://github.com/GeoChemFoam/GeoChemFoam/blob/main/GeoChemFoam_Papers/Zhaoetal2019_PoreScaleModels_PNAS.pdf))
 
@@ -26,7 +26,11 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 
 - Contaminant transport (e.g. [plume migration](https://arxiv.org/abs/2103.03597))
 
-<img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/ns_het.gif" width="300">
+<img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/ns_het.gif" width="300"> 
+
+- Multi-species molecular reaction 
+ 
+<img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/singlePhaseBimolecularReaction.gif" width="400">
 
 - Darcy-Stokes-Brinkman (e.g. [permeability upscaling](https://www.nature.com/articles/s41598-021-82029-2))
 
