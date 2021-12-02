@@ -1,4 +1,4 @@
-## Hi there 👋, Welcome to the GeoChemFoam github! Here you will find links to the source code, precompiled dockers, jupyter notebook and video tutorials, [a users wiki](https://github.com/GeoChemFoam/GeoChemFoam/wiki), publications, a discussion forum and more!
+## Hi there 👋, Welcome to the GeoChemFoam github! Here you will find links to the source code, [precompiled dockers](https://hub.docker.com/r/jcmaes/geochemfoam), jupyter notebook and video tutorials, [a users wiki](https://github.com/GeoChemFoam/GeoChemFoam/wiki), [publications](https://github.com/GeoChemFoam/GeoChemFoam/tree/main/GeoChemFoam_Papers), a [discussion forum](https://github.com/GeoChemFoam/GeoChemFoam/discussions) and more!
 
 ### The GeoChemFoam source code is hosted on [bitbucket](https://bitbucket.org/HWUCarbonates/workspace/projects/GCF). A precompiled docker of the latest version is also available on the [docker hub](https://hub.docker.com/r/jcmaes/geochemfoam).
 
