@@ -38,7 +38,7 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 <img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/EstailladesStreamlineNewPNGGIF.gif" width="400"> 
 
 #### __Currently in development:__
-- Charge Balance
+- Charge Balance for fuel cells and electrolyzers
 - On-demand machine learning for reaction with [Reaktoro](https://reaktoro.org)
 
 #### __We are looking to collaborate on:__
