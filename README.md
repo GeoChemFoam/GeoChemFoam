@@ -21,7 +21,7 @@ GeochemFoam is the world most advanced open source pore-scale numerical simulato
 
 <img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/spherePacking.gif" width="250">
 
-- Reactive Dissolution (e.g. [acid-well stimulation](https://www.earthdoc.org/content/papers/10.3997/2214-4609.202035250))
+- Reactive Dissolution (e.g. [acid-well stimulation](https://www.earthdoc.org/content/papers/10.3997/2214-4609.202035250) and [CCS](https://arxiv.org/abs/2204.07019)
 
 <img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/HM120_60_120Pe100_K10AnimatedSlices.gif" width="200"> <img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/HM120_60_120Pe1_K0.1AnimatedSlices.gif" width="200"> 
 
