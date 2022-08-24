@@ -1,0 +1,62 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  3.0.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       pointVectorField;
+    location    "0";
+    object      pointMotionU;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+    solidwalls
+    {
+        type            dissolSolidVelocity;
+        value           uniform (0 0 0);
+        CName           C;
+        k               8.1632e-6;//kmol/m2/s 
+        rhos            2700;//kg/m3
+        Mw              100;//kg/kmol
+    }
+
+    outlet 
+    {
+        type            uniformFixedValue;
+        value           uniform (0 0 0);
+        uniformValue    (0 0 0);
+    }
+
+    inlet 
+    {
+        type            uniformFixedValue;
+        value           uniform (0 0 0);
+        uniformValue    (0 0 0);
+    }
+    walls
+    {
+        type            uniformFixedValue;
+        value           uniform (0 0 0);
+        uniformValue    (0 0 0);
+    }
+
+    frontAndBack
+    {
+       type empty;
+    }
+
+}
+
+
+// ************************************************************************* //

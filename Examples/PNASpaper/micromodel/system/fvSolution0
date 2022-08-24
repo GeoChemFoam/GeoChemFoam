@@ -1,0 +1,109 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:     4.0                                |
+|   \\  /    A nd           | Web:         http://www.foam-extend.org         |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      fvSolution;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+solvers
+{
+    p
+    {
+        solver          GAMG;
+        tolerance       1e-6;
+        relTol          0.1;
+        smoother        GaussSeidel;
+        nPreSweeps      0;
+        nPostSweeps     2;
+        nFinestSweeps   2;
+        cacheAgglomeration on;
+        nCellsInCoarsestLevel 10;
+        agglomerator    faceAreaPair;
+        mergeLevels     1;
+    }
+
+    pcorr
+    {
+        $p
+        tolerance       1e-8;
+        relTol          0.001;
+    }
+
+
+    U
+    {
+        solver          BiCGStab;
+        preconditioner  DILU;
+        tolerance        1e-6;
+        relTol           0.1;
+    }
+
+    Yi 
+    {
+        solver          BiCGStab;
+        preconditioner  DILU;
+        tolerance       1e-6;
+        relTol          0.1;
+    }
+
+
+    cellMotionU 
+    {
+        solver          PCG;
+        preconditioner  DIC;
+        tolerance       1e-6;
+        relTol          0;
+    }
+}
+
+
+SIMPLE
+{
+    nNonOrthogonalCorrectors 1;
+
+	residualControl
+	{
+		p               1e-6;
+		U               1e-6;
+	}
+}
+
+STEADYSTATE
+{
+    momentumPredictor no;
+    nNonOrthogonalCorrectors 0;
+    nCorrectors 10000;
+
+	residualControl
+	{
+		p               1e-6;
+		U               1e-6;
+                C               1e-6;
+	}
+}
+
+relaxationFactors
+{
+   U 0.3;
+   p 0.3;
+   C 0.3;
+}
+
+cache
+{
+    grad(U);
+    grad(p);
+}
+
+
+// ************************************************************************* //
