@@ -1,6 +1,6 @@
 ## Hi there 👋, welcome to the GeoChemFoam github! Here you will find links to the [source code](https://github.com/GeoChemFoam/GeoChemFoam-4.8), [precompiled dockers](https://hub.docker.com/r/jcmaes), jupyter notebook and video tutorials, [a users wiki](https://github.com/GeoChemFoam/GeoChemFoam/wiki), [publications](https://github.com/GeoChemFoam/GeoChemFoam/tree/main/GeoChemFoam_Papers), a [discussion forum](https://github.com/GeoChemFoam/GeoChemFoam/discussions) and more!
 
-### The GeoChemFoam source code is hosted here on [github](https://github.com/GeoChemFoam/GeoChemFoam-4.6/blob/main/doc/GeoChemFoam-User-Guide.pdf). A precompiled docker of the latest version is also available on the [docker hub](https://hub.docker.com/r/jcmaes/geochemfoam-4.8).
+### The GeoChemFoam source code is hosted here on [github](https://github.com/GeoChemFoam/GeoChemFoam-4.8). A precompiled docker of the latest version is also available on the [docker hub](https://hub.docker.com/r/jcmaes/geochemfoam-4.8).
 
 GeochemFoam is the world most advanced open source pore-scale numerical simulator based on OpenFOAM developed at the Institute of GeoEnergy Engineering at Heriot-Watt University. GeoChemFoam is made specifically for researching pore-scale processes related to the energy transition. Below is a list of current capabilities, but __we are always adding new stuff and we welcome contributions from the community.__ Drop us a line at GeoChemFoam@hw.ac.uk.
 
