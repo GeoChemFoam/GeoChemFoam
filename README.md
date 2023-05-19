@@ -6,6 +6,7 @@ The GeochemFoam Project is the world's most advanced open source pore-scale nume
 #### __Project Partners:__
 __Dr Shaina Kelly__ ([Kelly Lab, Columbia University](https://kellylab.engineering.columbia.edu/))
 
+
 #### __Current capabilities:__
 - Multiphase Reactive Transport (e.g. [scCO2 dissolving in brine](https://arxiv.org/pdf/2103.03579.pdf))
 
