@@ -1,0 +1,4 @@
+Size: 6000 6000 1
+res 1 mum
+pore=255
+solid=0

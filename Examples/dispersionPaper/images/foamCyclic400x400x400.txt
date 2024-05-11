@@ -1,0 +1,4 @@
+Size: 400 400 400
+res 0.2 mum
+pore=0
+solid=255
