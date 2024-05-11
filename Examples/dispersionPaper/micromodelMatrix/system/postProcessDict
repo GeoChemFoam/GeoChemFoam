@@ -1,0 +1,22 @@
+FoamFile
+{
+version     4.0;
+format      ascii;
+class       dictionary;
+location    "system";
+object      postProcessDict;
+}
+
+direction 0;
+
+x1 0;
+x2 .000300;
+
+y1 0;
+y2 .000300;
+
+z1 0;
+z2 .000006;
+
+velocity volumeAveraged;
+pressureDrop momentumSource;

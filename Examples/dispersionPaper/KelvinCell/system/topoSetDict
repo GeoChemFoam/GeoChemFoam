@@ -1,0 +1,20 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      topoSetDict;
+}
+
+actions
+(
+{
+name refinementRegion;
+type cellSet;
+action new;
+source fieldToCell;
+field eps;
+min 0.446167;
+max 0.999;
+}
+);

@@ -1,0 +1,15 @@
+rm -rf [1-9]*
+rm -rf processor*/[1-9]*
+rm -rf processor*/0/U
+rm -rf processor*/0/p
+rm -rf processor*/0/phi
+rm -rf processor*/0/uniform
+rm -rf processor*/0/Kinv
+rm -rf *Flow.out
+rm -rf poroPerm.csv
+rm -f system/SPDict
+rm -rf 0/U
+rm -rf 0/p
+rm -f 0/phi
+rm -rf 0/uniform
+rm -rf 0/Kinv
