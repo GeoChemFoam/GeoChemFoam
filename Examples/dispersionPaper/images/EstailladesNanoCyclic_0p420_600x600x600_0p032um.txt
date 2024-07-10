@@ -1,4 +1,4 @@
 Size: 600 600 600
-res 0.000000032 mum
+res 0.032 mum
 pore=0
 solid=255
