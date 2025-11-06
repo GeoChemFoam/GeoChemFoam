@@ -1,4 +1,4 @@
-## Hi there 👋, welcome to The GeoChemFoam Project github! Here you will find links to the [source code](https://github.com/GeoChemFoam/GeoChemFoam-5.1), [precompiled dockers](https://hub.docker.com/r/jcmaes), [a users wiki](https://github.com/GeoChemFoam/GeoChemFoam/wiki), [publications](https://github.com/GeoChemFoam/GeoChemFoam/tree/main/GeoChemFoam_Papers), a [discussion forum](https://github.com/GeoChemFoam/GeoChemFoam/discussions) and more!
+## Hi there 👋, welcome to The GeoChemFoam Project github! Here you will find links to the [source code](https://github.com/GeoChemFoam/GeoChemFoam-5.1), [precompiled dockers](https://hub.docker.com/r/jcmaes), [a users wiki with tutorials](https://github.com/GeoChemFoam/GeoChemFoam/wiki), [publications](https://github.com/GeoChemFoam/GeoChemFoam/tree/main/GeoChemFoam_Papers), a [discussion forum](https://github.com/GeoChemFoam/GeoChemFoam/discussions) and more!
 
 ### The GeoChemFoam Project source code is hosted here on [github](https://github.com/GeoChemFoam/GeoChemFoam-5.1). A precompiled docker of the latest version is also available on the [docker hub](https://hub.docker.com/r/jcmaes/geochemfoam-5.1).
 
