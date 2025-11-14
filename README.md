@@ -3,11 +3,14 @@
 ### The GeoChemFoam Project source code is hosted here on [github](https://github.com/GeoChemFoam/GeoChemFoam-5.1). A precompiled docker of the latest version is also available on the [docker hub](https://hub.docker.com/r/jcmaes/geochemfoam-5.1).
 
 The GeochemFoam Project is the world's most advanced open source pore-scale numerical simulator based on OpenFOAM founded at the Institute of GeoEnergy Engineering at Heriot-Watt University in 2019 by [__Dr Julien Maes__](www.julienmaes.com) and [__Dr Hannah Menke__](https://scholar.google.co.uk/citations?user=tVSGe5IAAAAJ&hl=en). GeoChemFoam is made specifically for researching pore-scale processes related to the energy transition and our NetZero carbon future. Below is a list of current capabilities, but __we are always adding new stuff and we welcome contributions from the community.__ Drop us a line at GeoChemFoam@hw.ac.uk.
+
 #### __Project Partners:__
 __Dr Gavin Pringle__ ([EPCC, University of Edinburgh](https://www.epcc.ed.ac.uk/))
- *Contribution to GeoChemFoam:* developed the parallel meshing tool introduced in GeoChemFoam 5.2 and maintains the GeoChemFoam module on ARCHER2.
-__Dr Catherine Spurin__ ([Stanford Unibversity])(https://cspurin.github.io)
-*Contribution to GeoChemFoam:* developed the jupyter notebook workflow and helped adapt it for use inside the GeoChemFoam 5.2 docker.
+ *Contribution to GeoChemFoam:* developed the parallel meshing tool introduced in GeoChemFoam 5.2 and maintains the GeoChemFoam module on [ARCHER2](https://www.epcc.ed.ac.uk/whats-happening/articles/introducing-geochemfoam-archer2-pore-scale-modelling).
+
+__Dr Catherine Spurin__ ([Stanford University](https://cspurin.github.io))
+*Contribution to GeoChemFoam:* developed the [jupyter notebook workflow for image processing](https://link.springer.com/article/10.1007/s11242-024-02136-2) and helped us adapt it for use inside the GeoChemFoam 5.2 docker.
+
 __Dr Shaina Kelly__ ([Kelly Lab, Columbia University](https://kellylab.engineering.columbia.edu/))
   *Contribution to GeoChemFoam:* built the Singularity container used for running GeoChemFoam 5.1 on HPC systems.
  
