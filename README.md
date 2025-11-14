@@ -56,7 +56,7 @@ __Dr Saideep Pavuluri__ ([Heriot-Watt University](https://scholar.google.co.uk/c
 
 <img src="https://github.com/GeoChemFoam/GeoChemFoam/blob/main/wikiImages/EstailladesStreamlineNewPNGGIF.gif" width="400"> 
 
-- Multi-scale Dispersivity (e.g. [carbonate dispersivity](https://www.sciencedirect.com/science/article/pii/S2213343724018591)
+- Multi-scale Dispersivity (e.g. [carbonate dispersivity](https://www.sciencedirect.com/science/article/pii/S2213343724018591))
 
 <img src="https://github.com/user-attachments/assets/bca8ce19-1b10-464f-bba3-9759082544fd" width="400">
 
