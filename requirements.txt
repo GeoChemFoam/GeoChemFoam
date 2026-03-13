@@ -30,6 +30,7 @@ MarkupSafe
 matplotlib
 mistune
 more-itertools
+mpi4py
 nbconvert
 nbformat
 networkx
