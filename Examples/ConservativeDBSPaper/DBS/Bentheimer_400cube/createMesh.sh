@@ -54,7 +54,7 @@ refineStokes=0
 direction=0
 
 # Number of processors
-NP=32
+NP=64
 
 #### END OF USER INPUT #######################################################
 

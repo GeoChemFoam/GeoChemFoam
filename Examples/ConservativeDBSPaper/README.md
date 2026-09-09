@@ -49,6 +49,37 @@ To return to the DBS2 formulation:
 2. Recompile `simpleDBSFoam`.
 3. Run the cases again using the restored solver.
 
+## Case Prerequisites and Commands
+
+The following commands assume that the current directory is `Examples/ConservativeDBSPaper` in a fresh GeoChemFoam checkout.
+
+Before running the cases:
+
+- install and compile GeoChemFoam and load its OpenFOAM environment;
+- ensure that `simpleDBSFoam`, `simpleGCFoam`, `processPoroPerm`, MPI, and the standard OpenFOAM utilities are available;
+- ensure that Python, NumPy, h5py, and `bc` are available; and
+- request at least the number of MPI processes listed below.
+
+The image-based cases obtain their input automatically from the `raw_images` directory. It must contain:
+
+- `Bentheimer400-5mum_binarized.raw.tar.gz`
+- `micromodel_1200by1200_heteroSquares.raw.tar.gz`
+
+No external image-path environment variable is required.
+
+| Simulation | Case directory | Command | MPI processes |
+|---|---|---|---:|
+| DBS1 or DBS2 | `DBS/Bentheimer_400cube` | `(cd DBS/Bentheimer_400cube && ./Allrun.sh)` | 64 |
+| DBS1 or DBS2 | `DBS/micromodel_1200by1200_heteroSquares` | `(cd DBS/micromodel_1200by1200_heteroSquares && ./Allrun.sh)` | 32 |
+| DBS1 or DBS2 | `DBS/microChannel_500_150_1` | `(cd DBS/microChannel_500_150_1 && ./runCaseFlow.sh)` | 16 |
+| DNS | `DNS/Bentheimer_400cube` | `(cd DNS/Bentheimer_400cube && ./Allrun.sh)` | 64 |
+| DNS | `DNS/micromodel_1200by1200_heteroSquares` | `(cd DNS/micromodel_1200by1200_heteroSquares && ./Allrun.sh)` | 32 |
+| DNS | `DNS/microChannel_500_150_1` | `(cd DNS/microChannel_500_150_1 && ./runCaseFlow.sh)` | 16 |
+
+For the image-based cases, `Allrun.sh` creates the mesh, initializes the fields, runs the flow solver, and performs post-processing. For the microchannel cases, `runCaseFlow.sh` performs the complete workflow.
+
+The DBS commands use whichever version of `simpleDBSFoam` was most recently compiled: the default DBS2 formulation or the DBS1 formulation described above. The DNS commands use `simpleGCFoam`.
+
 ## Important Note
 
 The compiled `simpleDBSFoam` executable will use whichever version of `UEqn.H` was present during the most recent compilation. Users should therefore confirm that the intended formulation has been installed and compiled before running each group of simulations.
