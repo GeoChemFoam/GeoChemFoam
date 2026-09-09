@@ -5,8 +5,8 @@
 #Define image name
 Image_name="micromodel_1200by1200_heteroSquares"
 
-#Image directory location ($PWD if current directory)
-dir="$GCFOAM_IMG/raw"
+# Image directory relative to the case directory
+dir="../../raw_images"
 
 #Choose image format
 format='raw'
