@@ -1,0 +1,34 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2212                                  |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+functions
+{
+    velocityProfile
+    {
+        type            sets;
+        functionObjectLibs ("libsampling.so");
+        outputControl   timeStep;
+        outputInterval  1;
+        fields          ( U );
+
+        interpolationScheme cellPoint;
+
+        sets
+        (
+            line_xmid
+            {
+                type     uniform;
+                axis     y;
+                start    (0.00040 0       0.0000025);
+                end      (0.00040 0.00015 0.0000025);
+                nPoints  201;
+                setFormat csv;
+            }
+        );
+    }
+}

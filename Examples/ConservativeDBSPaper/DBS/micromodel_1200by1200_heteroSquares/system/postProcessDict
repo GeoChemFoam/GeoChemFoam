@@ -1,0 +1,32 @@
+FoamFile
+{
+version     4.0;
+format      ascii;
+class       dictionary;
+location    "system";
+object      postProcessDict;
+}
+
+direction 0;
+
+x1 0;
+x2 .001200;
+
+y1 0;
+y2 .001080;
+
+z1 0;
+z2 .000001;
+
+velocity volumeAveraged;
+inletName inlet;
+
+outletName outlet;
+
+velocity volumeAveraged;
+///// pressureDrop velocityWeightedAverageGradient;
+
+pressureDrop direct;
+
+////velocity: volumeAveraged or inlet
+////pressure: direct or velocityWeightedAverageGradient or velocityWeightedAverageViscousForce or momentumSource

@@ -1,0 +1,71 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2106                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    object      p;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 2 -2 0 0 0 0];  // Kinematic pressure (m²/s²)
+
+internalField   uniform 0;
+
+boundaryField
+{
+    inlet
+    {
+        type            fixedValue;    // Constant injection pressure
+        value           uniform 0.1;   
+    }
+
+    outlet
+    {
+        type            fixedValue;    // Outlet pressure (e.g., atmospheric)
+        value           uniform 0;
+    }
+/*
+    walls
+    {
+        type            zeroGradient;  // No pressure change across walls
+    }
+*/
+
+    topWall
+    {
+        type            symmetryPlane;
+  //      type            noSlip;
+    }
+
+    bottomWall
+    {
+        type            symmetryPlane;
+  //      type            noSlip;
+    }
+
+    solidwalls
+    {
+        type            zeroGradient;  // No pressure change across walls
+    } 
+/*
+    oldInternalFaces
+    {
+        type            zeroGradient;
+    }
+*/
+
+    frontAndBack
+    {
+        type            empty;
+    }
+
+}
+
+// ************************************************************************* //

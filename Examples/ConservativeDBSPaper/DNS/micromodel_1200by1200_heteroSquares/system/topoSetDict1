@@ -1,0 +1,41 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      topoSetDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+actions
+(
+    {
+        name        fluidRegion;
+        type        cellSet;
+        action      new;
+        source      fieldToCell;
+        sourceInfo
+        {
+            field   eps;
+            min     0.5;
+            max     1.000;
+        }
+    }
+);
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+// Usage:
+// 1. Ensure the 'eps' field exists in your case (e.g., in 0/ directory)
+// 2. Run: topoSet -dict system/topoSetDict
+// 3. This will create a cellSet named 'fluidRegion' containing all cells 
+//    where eps < 0.5
+// 4. The cellSet will be written to constant/polyMesh/sets/fluidRegion
+// 5. You can then use this cellSet with subsetMesh

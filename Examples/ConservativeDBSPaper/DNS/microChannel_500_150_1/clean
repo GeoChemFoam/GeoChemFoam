@@ -1,0 +1,6 @@
+rm -rf [1-9]*
+rm -f *.out
+rm -rf processor*
+rm -f *.csv
+rm -f system/SPDict
+rm -f log*
